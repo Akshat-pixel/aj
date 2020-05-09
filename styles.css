@@ -1,0 +1,124 @@
+body
+{
+    margin: 0;
+    text-align: center;
+    font-family:'Merriweather',-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+h1
+{
+    font-family: 'Montserrat', sans-serif;
+    color: #d63447;
+    margin: auto;
+}
+.akshat
+{
+    font-size: 562.5%;
+    font-family: 'Sacramento', cursive;
+    color: #d63447;
+}
+h2
+{
+    color: #d63447;
+    font-family: 'Montserrat', sans-serif;
+}
+h3
+{
+    
+    color: #d63447;
+    font-family: 'Montserrat', sans-serif;
+}
+.top-container
+{
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    height: 580px;
+    padding-top: 50px;
+    background-color:#eb6383;
+}
+.bottom-cloud
+{
+    width: 15%;
+    position: absolute;
+    bottom: 340px;
+    left: 150px;
+}
+.top-cloud
+{
+    width: 15%;
+    top: 30px;
+    right: 150px;
+    position: absolute;
+}
+.mountain
+{
+    position: relative;
+    top: 68px;
+}
+.p
+{
+    color: #d63447 ;
+}
+.middle-container
+{
+    position: absolute;
+    top: 580px;
+    padding-top: 50px;
+    background-color:white;
+    right: 0px;
+    left: 0px;
+}
+.my-image
+{
+    width: 12.5%;
+}
+.intro
+{
+    width: 40%;
+    margin: auto;
+    color: #d63447;
+    margin-bottom: 50px;
+}
+.skill-row
+{
+    width: 50%;
+    margin: auto;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+.skill-image
+{
+    width: 25%;
+    border-radius: 30px;
+    float: left;
+    margin-right: 30px;
+}
+.education
+{
+    width: 50%;
+    margin: auto;
+    margin: 100px auto 100px auto;
+    text-align: right;
+
+}
+.edu-image
+{
+    width: 25%;
+    border-radius: 30px;
+    float: right;
+    margin-left: 30px;
+}
+.bottom-container
+{
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    top: 1560px;
+    padding-top: 15px;
+    background-color:#eb6383
+}
+.c
+{
+    color: white;
+    padding-right: 10px;
+}

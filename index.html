@@ -2,55 +2,49 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>akshat web page</title>
+        <title>Akshat Jain</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" href="images/favicon.ico">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&family=Montserrat:wght@300&family=Sacramento&display=swap" rel="stylesheet">
     </head>
     <body>
-        <table cellspacing="20">
-            <tr>
-                <td><img src="images/aj.jpg" alt="Akshat photo"></td>
-                <td><h1>Akshat jain</h1>
-                    <p><em>CSE <strong>Student</strong> <strong><a href="http://www.google.com">google</a></strong></em></p>
-                    <p>I am a student and love computer.</p></td>
-            </tr>
-        </table>
-         <hr>
-         <h3>Education</h3>
-         <p>
-         <ul>
-         <li>completed icse</li>
-         <li>completed isc</li>
-         </ul>
-         </p>
-         <h3>Marks</h3>
-         <table cellspacing="10">
-             <thead><th>subject</th><th>marks</th></thead>
-             <tbody>
-                 <tr>
-                     <td>maths</td><td>100</td>
-                 </tr>
-                 <tr>
-                     <td>phy</td><td>100</td>
-                 </tr>
-             </tbody>
-         </table>
-         <hr>
-         <h3>
-             <table>
-                 <td>
-                     <table cellspacing="10">
-                         <tr><td>maths</td><td>5</td></tr>
-                         <tr><td>phy</td><td>5</td></tr>
-                     </table>
-                 </td>
-                 <td>
-                    <table cellspacing="10">
-                        <tr><td>java</td><td>5</td></tr>
-                        <tr><td>c</td><td>5</td></tr>
-                    </table>
-                 </td>
-             </table>
-         </h3>
-         <hr>
-        <p> <a href="hobbies.html">my hobbies</a> <a href="contacts.html">contact me</a></p>
+        <div class="top-container">
+            <img class="top-cloud" src="images/cloud.svg" alt="cloud image">
+            <h1 class="akshat">I'm Akshat</h1>
+            <p class="p">a programmer</p>
+            <img class="bottom-cloud" src="images/cloud.svg" alt="cloud image">
+            <img class="mountain" src="images/mountain.svg" alt="cloud image">
+        </div>
+        <div class="middle-container">
+            <img class="my-image" src="images/me.svg" alt="my image">
+            <h2>Hi</h2>
+            <p class="intro">I'm a web designer / developer based in Raipur, India. I have a passion for web design and love to create for web and mobile devices.</p>
+            <h2>My Skills</h2>
+            <div class="skill-row">
+                <img class="skill-image" src="images/skill.jpg" alt="skill-image">
+
+                <h2>Design and Development</h2>
+                <p class="p">I started learning to code when I was 12. I have learned java and c++  </p>
+            </div>
+            <h2>My Education</h2>
+            <div class="education">
+                <img class="edu-image" src="images/edu.jpeg" alt="education-image">
+                <h2>Course</h2>
+                <p class="p">I am doing my CS Engeneering fron Shri Shankracharya Engeneering Campus Bhilai</p>
+            </div>
+            </div>
+        </div>
+        <div class="bottom-container">
+            <h2>Contact Me</h2>
+            <form class="" action="mailto:arthaksht@gmail.com" method="post" enctype="text/plain">
+                <label class="c">name </label>
+                <input type="text" name="" value=""><br>
+                <label class="c"> email</label>
+                <input type="email" name="" value=""><br>
+                <label class="c"> your message</label>
+                <textarea name="name" cols="10" rows="1"></textarea>
+                <input type="submit"  name="">
+            </form>
+        </div>
     </body>
 </html>
